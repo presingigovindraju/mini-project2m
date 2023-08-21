@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+}
+.class-2{
+    display:flex;
+    width: 600px;
+      height: 300px;
+      border-radius:20px;
+      box-shadow:0 8px 16px rgba(0, 0, 0, 0.1);
+
+      overflow: hidden;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+.item-1{
+    flex:2;
+    background-image: url('https://via.placeholder.com/300');
+    background-position: center;
+    background-image: cover;
+    
+}
+
+.item-2{
+    flex:3;
+    padding: 20px; 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#card-author,#card-authors{
+    font-size: 14px;
+      color: #777;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+      color: #007bff;
+      cursor: pointer;
+      
+}
+#normal{
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+}
+#vlog{
+    font-size: 24px;
+      font-weight: bold;
+      color: #333;
+}
